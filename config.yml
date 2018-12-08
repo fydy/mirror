@@ -5,10 +5,10 @@ organization: false
 title: Mirror
 
 # github user
-user: LoeiFy
+user: fydy
 
 # issue repository
-repository: Recordum
+repository: issue-blog
 
 # multi-author
 authors:
@@ -16,7 +16,7 @@ authors:
 # token
 # token should be separated by '#'
 # example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
-token: 5#c21bffc137f44faf7e9c4a84da827f7cc2cfeaa
+token: d#710bd50e411602f6a5c6318dd9b2a0fdbd08e3d
 
 # posts per page
 perpage: 7
