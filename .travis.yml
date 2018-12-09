@@ -1,0 +1,21 @@
+
+language: node_js
+
+node_js:
+  - stable
+
+before_script:
+  - npm install
+  - npm uninstall Mirror -g
+  - npm install Mirror -g
+
+script:
+  - mirror build
+  
+after_script:
+  - git init
+  - git config user.name "fydy"
+  - git config user.email "edu@yuns.me"
+  - git add .
+  - git commit -m "Update docs"
+  - git push --quiet --force https://$mirror@github.com/fydy/mirror.git gh-pages
