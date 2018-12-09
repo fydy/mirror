@@ -16,7 +16,7 @@ authors: fydy
 # token
 # token should be separated by '#'
 # example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
-token: d#828793e6a098fe4f857b9d716b903a6c77cfe1b
+token:  7#812ce459ca752c359dd42c471c246397fa54300 
 
 # posts per page
 perpage: 7
