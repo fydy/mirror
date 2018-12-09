@@ -11,7 +11,7 @@ user: fydy
 repository: issue-blog
 
 # multi-author
-authors:
+authors: fydy
 
 # token
 # token should be separated by '#'
